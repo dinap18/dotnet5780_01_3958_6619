@@ -126,7 +126,9 @@ namespace part2
                                 else 
                                     if (reservations[i, j] == true && reservations[i, helpJ] == false)
                                         Console.WriteLine(i + "/" + j + "  ");
-                                
+                                else
+                                    if (reservations[i, j] == true && i==11 && j==30)
+                                    Console.WriteLine(i + "/" + j + "  ");
 
                             }
 
